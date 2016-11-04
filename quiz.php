@@ -15,7 +15,7 @@ session_start();
     <meta name="description" content="Small site for testing my knowledge and an excuse to work with databases.">
     <meta name="author" content="Robert Petersen">
 
-	<link rel='shortcut icon' href='img/gear.png' type='image/x-icon'/ >
+	<link rel='shortcut icon' href='img/gear.png' type='image/x-icon'/>
 	
     <title>Skills Refresher</title>
 
@@ -143,7 +143,7 @@ session_start();
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" novalidate>
                         <h1 class="center">Send Me Questions*</h1>
-						</br>
+						<br/>
 						<div class="row control-group hideThis">
                             <div class="form-group col-md-2 col-sm-2 col-xs-12">
                                 <label  for="name">Name:</label>
@@ -183,8 +183,8 @@ session_start();
                         <br>
                         <div id="success"></div>
                         <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg center">Send</button>
+                            <div class="form-group col-xs-12 centerLabel">
+                                <button type="submit" class="myButton" id="submitBtn">Send</button><!--btn btn-success btn-lg center-->
                             </div>
                         </div>
 						<p class="center">*I'm looking for questions to test myself and stay current.  I have them pulled from a database that has the question, answer, hints, category (Html5, Css, etc), and will eventually have subcategories and skill levels (beginner, advanced, etc.).</p>
